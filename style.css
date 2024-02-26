@@ -35,40 +35,51 @@ p {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 28px;
     font-family: 'Krona one', sans-serif;
 }
 
 .apresentacao__conteudo__texto {
     padding: 20px 0px;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 0 5%;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links_link {
-    background-color: #ff00ee;
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #ff00ee;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #020202;
+    color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
-img {
-    width: 450px;
-    height: auto;
-    border-radius: 40px;
+.apresentacao__links_link:hover {
+    background-color: #1d021b;;
+    transition: background-color 0.3s ease;
 }
 
 .apresentacao__foto {
@@ -77,4 +88,3 @@ img {
     border-radius: 40px;
     position: relative;
 }
-
