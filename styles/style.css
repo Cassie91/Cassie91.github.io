@@ -40,6 +40,14 @@ body {
     font-weight: 600;
     color: var(--cor-terciária);
     text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-hover);
+    transition: color 0.3s ease;
 }
 
 .apresentacao {
